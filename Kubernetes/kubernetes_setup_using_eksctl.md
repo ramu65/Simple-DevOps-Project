@@ -47,14 +47,14 @@ You can follow same procedure in the official  AWS document [Getting started wit
    --zones <AZ-1>,<AZ-2>
    
    example:
-   eksctl create cluster --name valaxy-cluster \
+   eksctl create cluster --name demo-cluster \
       --region ap-south-1 \
    --node-type t2.small \
     ```
 
 5. To delete the EKS clsuter 
    ```sh 
-   eksctl delete cluster valaxy --region ap-south-1
+   eksctl delete cluster demo-cluster --region ap-south-1
    ```
    
 6. Validate your cluster using by creating by checking nodes and by creating a pod 
